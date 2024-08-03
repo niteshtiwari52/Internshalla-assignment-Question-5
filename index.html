@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internshalla Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Employer Details Form</h2>
+      <form action="" method="POST">
+        <label for="employerName">Employer Name:</label>
+        <input
+          type="text"
+          id="employerName"
+          name="employerName"
+          class="styled-input"
+          required
+        />
+
+        <label for="employerEmail">Employer Email:</label>
+        <input
+          type="email"
+          id="employerEmail"
+          name="employerEmail"
+          class="styled-input"
+          required
+        />
+
+        <label for="companyName">Company Name:</label>
+        <input
+          type="text"
+          id="companyName"
+          name="companyName"
+          class="styled-input"
+          required
+        />
+
+        <label for="companyAddress">Company Address:</label>
+        <textarea
+          id="companyAddress"
+          name="companyAddress"
+          class="styled-input"
+          rows="4"
+          required
+        ></textarea>
+
+        <div class="button-group">
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
